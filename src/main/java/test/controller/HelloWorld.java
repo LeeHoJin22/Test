@@ -1,4 +1,4 @@
-package controller;
+package main.java.test.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -32,7 +32,7 @@ public class HelloWorld {
 //		model.addAttribute("Data2", id + " page");
 //		return "hello";
 //	}
-
+	
 //	@RequestMapping(value="{id}.html", method = RequestMethod.GET)
 //	public String index1(@PathVariable String id,ModelMap model, HttpSession session, HttpServletRequest req, HttpServletResponse res){
 //		model.addAttribute("Data2", id + " page");
